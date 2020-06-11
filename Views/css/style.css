@@ -1,0 +1,67 @@
+.toast-def {
+   min-width: 300px;
+}
+
+.backgound_login{
+   background-image: url("../imgs/pista_padel.png");
+   background-color: aliceblue;
+   background-position: 100% 37%;
+   opacity:.9;
+   background-size: cover;
+
+}
+
+.backgound_vistas{
+  /* background-image: url("../imgs/Ballen-op-veld.jpg");*/
+   background-image: url("../imgs/Tennis-background-latest-4.jpg");
+   background-color: aliceblue;
+   opacity:.9;
+   background-position: 90% ;
+   background-size: cover;
+}
+
+.btn_volver{
+   color:white;
+   margin-top: 2%;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+   cursor: default;
+   color: #666 !important;
+   border: 1px solid transparent;
+   background: transparent;
+   box-shadow: none; 
+   border-radius: 20%;
+}
+
+/*edit radio*/
+.custom-radio .custom-control-input:checked~.custom-control-label:before{
+   background-color:#2dce89
+   }
+   
+   .custom-radio .custom-control-input:disabled:checked~.custom-control-label:before{
+   background-color:#2dce89
+   }
+   
+   .custom-radio .custom-control-input:checked~.custom-control-label:before{
+   border-color:#1fa36a
+   }
+   
+   .custom-radio .custom-control-input:checked~.custom-control-label:after{
+   background-image:url("data:image/svg+xml; charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E")
+   }
+   
+   .custom-radio .custom-control-input:disabled~.custom-control-label:before{
+   border-color:#1fa36a
+   }
+   
+   .custom-radio .custom-control-input:disabled:checked:before{
+   border-color:#1fa36a
+   }
+
+.tipo_frase{
+   text-transform: initial;
+}
+.tipo_capit{
+   text-transform: capitalize;
+}
